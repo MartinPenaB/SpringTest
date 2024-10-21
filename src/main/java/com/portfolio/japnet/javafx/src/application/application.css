@@ -1,0 +1,82 @@
+.button {
+    -fx-background-color: #007BFF;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+AnchorPane {
+    -fx-background-color: white;
+}
+
+#headerAnchorPane, #footerAnchorPane, #backgroundAnchorPane {
+    -fx-background-color: #2c3e50;
+}
+
+#contentAnchorPane {
+    -fx-background-color: #CCCCCC;
+}
+
+#infoLabel {
+	-fx-font-weight: bold;
+    -fx-border-color: darkgray;
+    -fx-border-width: 1.0px; 
+    -fx-border-style: solid;
+    -fx-padding: 3.0px 8.0px;
+}
+
+#infoLabel, #iterationsLabel, #ruleLabel, #multicolorRadioButton, #manualRadioButton{
+	-fx-text-fill: white;
+}
+
+
+#languageMenuBar {
+    -fx-background-color: #4d94ff;
+}
+
+#languageMenuBar .menu .label {
+    -fx-font-size: 14px;
+}
+
+
+#projectComboBox {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+    -fx-font-size: 14.0px;
+    -fx-padding: 5.0px;
+    -fx-border-color: #3498db;
+    -fx-border-width: 2.0px;
+    -fx-border-radius: 5.0px;
+}
+
+#projectComboBox .arrow-button {
+    -fx-background-color: #3498db;
+    -fx-shape: "M 0 0 L 10 0 L 5 7 Z";
+    -fx-padding: 5.0px;
+}
+
+#projectComboBox:hover {
+    -fx-border-color: #2980b9;
+}
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, #333333, 10.0, 0.5, 2.0, 2.0);
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #3498db;
+    -fx-border-width: 1.0px;
+    -fx-border-radius: 2.0px;
+    -fx-font-size: 12.0px;
+    -fx-text-fill: #333333;
+    -fx-padding: 2.0px;
+}
+
+.text-field:hover {
+    -fx-border-color: #2980b9;
+}
+
+
